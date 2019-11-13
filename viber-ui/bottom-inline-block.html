@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        .navigation__links {
+            background-color: #666;
+        }
+        .bottom-bar__navigation>.navigation__links>li{
+            display: inline-block;
+
+        }
+        .bottom-bar {
+            text-align: center;
+        }
+        .bottom-bar__navigation>.navigation__links>li>a>i {
+            font-size: 30px;
+            display: block;
+        }
+        .bottom-bar__navigation>.navigation__links>li>a {
+            padding-left: 30px;
+            padding-right: 30px;
+            display: block;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bottom-bar">
+        <nav class="bottom-bar__navigation">
+            <ul class="navigation__links">
+                <li>
+                    <a href=""><i class="fas fa-comment-dots"></i>Chats
+                    </a>
+                </li>
+                <li>
+                    <a href=""><i class="fas fa-phone-alt"></i>Calls
+                    </a>
+                </li>
+                <li>
+                    <a href=""><i class="fas fa-ellipsis-h"></i>More
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
