@@ -26,7 +26,7 @@ body {
 }
 .center-hv {
     position: absolute;
-    top: 0;
+    top: 500px;
     bottom: 0;
     right: 0;
     left: 0;
